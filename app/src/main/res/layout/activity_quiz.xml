@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Welcome Vladka!"
+            android:textColor="#4F5A69"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Lets play! :)"
+            android:textColor="#4F5A69"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="#1 My momma always said: Life was like a box of chocolates. You never know what you're gonna get."
+            android:textColor="#F44336"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/R1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="#4F5A69">
+
+            <RadioButton
+                android:id="@+id/radio_pirates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Godfather"
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:id="@+id/forrestgump"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forrest Gump"
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inception"
+                android:textColor="#4F5A69" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#4F5A69" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="#2 Nobody puts Baby in a corner."
+            android:textColor="#F44336"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/R2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="#4F5A69">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Titanic"
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good Will Hunting"
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:id="@+id/dirtydancing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirty dancing"
+                android:textColor="#4F5A69" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#4F5A69" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="#3 Sometimes it's the very people who no one imagines anything of who do the things no one can imagine."
+            android:textColor="#F44336"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/R3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="#4F5A69">
+
+            <RadioButton
+                android:id="@+id/imitationgame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Imitation Game"
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forrest Gump"
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inception"
+                android:textColor="#4F5A69" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#4F5A69" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="#4 All good things to those who wait."
+            android:textColor="#F44336"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/R4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="#4F5A69">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Schindler's List"
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Green Mile"
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:id="@+id/silence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Silence of the Lambs"
+                android:textColor="#4F5A69" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#4F5A69" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="#5 Keep your friends close, but your enemies closer."
+            android:textColor="#F44336"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/R5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="#4F5A69">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seven"
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:id="@+id/godfather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Godfather II."
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gran Torino"
+                android:textColor="#4F5A69" />
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#4F5A69" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="#6 May the Force be with you."
+            android:textColor="#F44336"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/R6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="#4F5A69">
+
+            <RadioButton
+                android:id="@+id/starwars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Star Wars"
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Star Trek"
+                android:textColor="#4F5A69" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terminator"
+                android:textColor="#4F5A69" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#4F5A69" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="#7 Choose all correct quotes from Harry Potter movie. "
+            android:textColor="#F44336"
+            android:textSize="20sp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cb_correct1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Never trust anything that can think for itself if you can’t see where it keeps its brain."/>
+
+            <CheckBox
+                android:id="@+id/cb_notcorrect1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moonlight drowns out all but the brightest stars." />
+
+            <CheckBox
+                android:id="@+id/cb_correct2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It's wingardium leviOsa, not leviosAH" />
+
+            <CheckBox
+                android:id="@+id/cb_notcorrect2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="There's no place like home." />
+
+            <CheckBox
+                android:id="@+id/cb_notcorrect3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can't handle the truth!" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#4F5A69" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="#8 Just keep swimming! Just keep swimming!"
+            android:textColor="#F44336"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/nemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write here (lowercase) the name of the movie with that quote"
+            android:fontFamily="sans-serif-condensed"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#F44336"
+            android:onClick="Result"
+            android:text="Submit"
+            android:textColor="@android:color/white" />
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizAppproject</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="ti1">Thinking Of Movie</string>
+    <string name="ti2">...by brain!</string>
+    <string name="type_your_name">Type your name here</string>
+    <string name="play_button">Play</string>
+</resources>
